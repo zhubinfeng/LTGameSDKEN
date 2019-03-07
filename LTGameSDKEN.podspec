@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LTGameSDKEN"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This is a share sdk LTGameSDKEN."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-
+  s.vendored_frameworks = 'LTGameSDKEN/LTGameSDK.framework'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
