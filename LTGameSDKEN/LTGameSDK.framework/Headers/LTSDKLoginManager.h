@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "LTUser.h"
-#define QQ_FW false
-#define WX_FW false
+#define QQ_FW true
+#define WX_FW true
 #define GOOGLE_FW true
 #define FB_FW true
 NS_ASSUME_NONNULL_BEGIN
